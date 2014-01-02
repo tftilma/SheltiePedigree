@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<info>
+  <element name="Pedigree">
+    <element name="linerefs">
+     <addDefaults/>
+    </element>
+    <element name="familyrefs">
+     <addDefaults/>
+    </element>
+    <element name="kennels">
+     <addDefaults/>
+    </element>
+    <element name="animals">
+     <addDefaults/>
+    </element>
+    <element name="regs">
+     <addDefaults/>
+    </element>
+  </element>
+</info>

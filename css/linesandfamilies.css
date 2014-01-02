@@ -1,0 +1,36 @@
+body {
+background-color: #113045;
+background-image: url(../img/_tile2.jpg);
+}
+a:hover{
+  color: yellow;
+}
+a:link{
+  color: #00CEF4;
+}
+a:visited{
+  color: #00CEE4;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #00CEF4;
+  text-align:center;
+}
+p  {color: #00CEF4;}
+th {color: #00CEF4;}
+td {color: #00CEF4;}
+li {color: #00CEF4;}
+table.edge {
+  background-image: url(../img/_strip.jpg);
+}
+div.edge1 {
+         background-image: url(../img/_strip.jpg);
+         text-align:center;
+         margin: 6px;
+         padding: 6px;
+         border-top:10px;
+         }
+div.edge2 {
+         background-image: url(../img/_tile.jpg);
+         text-align:center;
+         padding: 6px;
+         }

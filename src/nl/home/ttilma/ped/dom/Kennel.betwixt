@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<info>
+  <element name="kennel">
+    <attribute name="kennelid" property="kennelId"/>
+    <element name="name" property="name"/>
+    <element name="namebeforekennel" property="nameBeforeKennel"/>
+    <element name="breeder" property="breeder"/>
+    <element name="comment" property="comment"/>
+    <element name="foundationdate" property="foundationDate"/>
+    <element name="country" property="country"/>
+    <addDefaults/>
+  </element>
+</info>

@@ -1,0 +1,48 @@
+dl {
+  margin:0; 
+  padding:0 0 15px 0; 
+  width:401px; 
+  height:auto; 
+  background:#fff url(bar.gif) bottom left no-repeat;
+  }
+
+dt {
+  text-align:center; 
+  font-size:1.5em; 
+  border-bottom:3px solid #fff;
+  }
+
+dd {
+  margin:0; 
+  display:block; 
+  width:400px; 
+  height:2em; 
+  background:#0a0; 
+  border-bottom:1px solid #fff;
+  }
+
+dd b {
+  float:right;
+  display:block; 
+  margin-left:auto; 
+  background:#cec; 
+  height:2em; 
+  line-height:2em; 
+  text-align:right;
+  }
+
+dd.p670 b {width:33%;}
+dd.p67 b {width:93.3%;}
+dd.p12 b {width:98.8%;}
+dd.p197 b {width:80.3%;}
+dd.p26 b {width:97.3%;}
+dd.p08 b {width:99.2%;}
+
+dd.p50546 b {width:49.454%;}
+dd.p25577 b {width:74.423%;}
+dd.p00460 b {width:99.540%;}
+dd.p00203 b {width:99.797%;}
+dd.p00179 b {width:99.821%;}
+dd.p00070 b {width:99.930%;}
+dd.p00031 b {width:99.969%;}
+dd.p01800 b {width:98.200%;}

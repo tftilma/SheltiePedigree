@@ -1,0 +1,105 @@
+body {
+background-color: #113045;
+background-image: url(img/_tile2.jpg);
+height: 100%;
+padding: 6px;
+margin: 6px;
+}
+a:hover{
+  color: yellow;
+}
+a:link{
+  color: #00CEF4;
+}
+a:visited{
+  color: #00CEE4;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #00CEF4;
+  text-align:center;
+}
+p  {color: #00CEF4;}
+th {color: #00CEF4;}
+td {color: #00CEF4;}
+li {color: #00CEF4;}
+table.edge {
+  background-image: url(../img/_strip.jpg);
+}
+
+.edge1 {
+         background-image: url(../img/_strip.jpg);
+         margin: 6px;
+         padding: 0px; 
+         border-top:10px;
+         border-bottom: 10px;
+         height: 100%;
+         }
+.edge2 {
+         background-image: url(../img/_tile.jpg);
+         padding: 2px;
+         height: 97%;
+	   margin : 5px;
+       }
+
+#startcharkennel {
+  position: absolute; 
+ 
+  float: left;
+  top: 80px;
+  left: 30px;
+  /*width: 500px; */
+}
+
+#alphabet {
+  position: absolute; 
+  float: left;
+  top: 100px;
+  left: 2%; 
+}
+
+#dutchchamps {
+  position: absolute; 
+  text-align: left;
+  float: left;
+  top: 160px;
+  left: 12px;
+}
+
+#englishchamps {
+  position: absolute; 
+  text-align: left;
+  float: left;
+  top: 210px;
+  left: 12px;
+}
+
+#rom {
+  position: absolute; 
+  text-align: left;
+  float: left;
+  top: 160px;
+  left: 240px;
+}
+
+#others {
+  position: absolute; 
+  text-align: left;
+  float: left;
+  top: 450px;
+  left: 30px;
+}
+
+#chestnutlassie {
+ /*position: absolute;  */
+ float: right;
+ text-align: right;
+}
+
+#trackers {
+  position: absolute; 
+  text-align: left;
+  float: left;
+  top: 630px;
+  left: 30px;
+}
+

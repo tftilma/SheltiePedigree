@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<info>
+  <element name="reg">
+    <element name="year" property="year"/>
+    <element name="month" property="month"/>
+    <element name="tot" property="tot"/>
+    <element name="renameyear" property="renameYear"/>
+    <element name="renamemonth" property="renameMonth"/>
+  </element>
+</info>

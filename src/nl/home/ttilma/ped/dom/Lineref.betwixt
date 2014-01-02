@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<info primitiveTypes="attribute">
+  <element name="lineref">
+    <attribute name="lineid" property="lineid"/>
+    <element name="linname" property="linname"/>
+  </element>
+</info>

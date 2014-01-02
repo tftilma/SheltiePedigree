@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<info>
+  <element name="animal">
+    <attribute name="animalid" property="id"/>
+    <attribute name="startof" property="startOfFamily"/>
+    <attribute name="kennelid" property="kennelId"/>
+    <attribute name="kennelid2" property="kennelId2"/>
+    <attribute name="fatherid" property="fatherId"/>
+    <attribute name="motherid" property="motherId"/>
+    <attribute name="color" property="color"/>
+    <element name="name" property="name"/>
+    <element name="nickname" property="nickName"/>
+    <element name="ownerid" property="ownerId"/>
+    <element name="gender" property="gender"/>
+    <element name="born" property="born"/>
+    <element name="startoffamily" property="startOfFamily"/>
+    <element name="namebeforekennel" property="nameBeforeKennel"/>
+    <element name="namebeforekennel2" property="nameBeforeKennel2"/>
+    <element name="CD" property="cd"/>
+    <element name="CDX" property="cdx"/>
+    <element name="UD" property="ud"/>
+    <element name="UDX" property="udx"/>
+    <element name="ROM" property="rom"/>
+    <element name="ROMC" property="romc"/>
+    <element name="ROMA" property="roma"/>
+    <element name="ROMNZ" property="romnz"/>
+    <element name="cw" property="cw"/>
+    <element name="jw" property="jw"/>
+    <element name="ch" property="champions"/>
+    <element name="chyear" property="chyear"/>
+    <element name="comment" property="comment"/>
+    <element name="suffix" property="suffix"/>
+    <element name="reg" property="reg"/>
+    <element name="line" property="line"/>
+    <element name="fam" property="fam"/>
+    <element name="exportfrom" property="exportFrom"/>
+    <element name="importto" property="importTo"/>
+    <addDefaults/>
+  </element>
+</info>

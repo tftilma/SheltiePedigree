@@ -1,0 +1,42 @@
+<!ELEMENT pedigree (kennels?, animals?, persons?)>
+
+<!ELEMENT kennels (kennel*)>
+<!ELEMENT animals (animal*)>
+<!ELEMENT persons (person*)>
+
+<!ELEMENT kennel ((kennelbeforename|namebeforekennel), name)>
+<!ATTLIST kennel kennelid ID #REQUIRED>
+<!ATTLIST kennel breederid IDREF #IMPLIED>
+
+<!ELEMENT animal ((kennelbeforename|namebeforekennel)?, 
+                   ch?, 
+                   name, 
+                   nickname?, 
+                   externid?, 
+                   born?,
+                   died?,
+                   comment?)>
+<!ATTLIST animal 
+            animalid ID #REQUIRED
+            kennelid IDREF #REQUIRED
+            fatherid IDREF #IMPLIED
+            motherid IDREF #IMPLIED
+            ownerid IDREF #IMPLIED
+            color CDATA #IMPLIED>
+
+<!ELEMENT person (firstname, lastname)>
+<!ATTLIST person personid ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT nickname (#PCDATA)>
+<!ELEMENT externid (#PCDATA)>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT died (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT kennelbeforename EMPTY>
+<!ELEMENT namebeforekennel EMPTY>
+
+<!ELEMENT ch EMPTY>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
