@@ -96,10 +96,10 @@ table.edge {
 }
 
 #trackers {
-  position: absolute; 
-  text-align: left;
-  float: left;
-  top: 630px;
-  left: 30px;
+  /* position: absolute; */
+  text-align: right;
+  float: right;
+  top: 680px;
+  
 }
 
