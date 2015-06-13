@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!ELEMENT pedigree (linerefs, familyrefs, kennels, animals, persons?, regs)>
+
+<!ELEMENT linerefs (lineref*)>
+<!ELEMENT familyrefs (familyref*)>
+<!ELEMENT kennels (kennel*)>
+<!ELEMENT animals (animal*)>
+<!ELEMENT persons (person*)>
+<!ELEMENT regs (reg*)>
+
+<!ELEMENT kennel ((kennelbeforename|namebeforekennel), name, breeder?,
+foundationdate?, homepage?, comment?)>
+
+<!ATTLIST kennel kennelid ID #REQUIRED>
+<!ATTLIST kennel breederid IDREF #IMPLIED>
+
+<!ELEMENT animal ( (male|female)?, (kennelbeforename|namebeforekennel)?,
+(kennelbeforename2|namebeforekennel2)?, (CD|CDX)?, (UD|UDX)?,ROM?, ROMC?, ROMA?,
+(JW|CW)?, cc*, ch*, chyear?, name, suffix?, nickname?, line?, fam?, externid?, born?,
+died?, reg?, exportfrom?, importto?, (jpg | gif)?, comment?)>
+<!ATTLIST animal 
+animalid ID #REQUIRED
+startof CDATA #IMPLIED
+kennelid IDREF #REQUIRED
+kennelid2 IDREF #IMPLIED
+fatherid IDREF #IMPLIED
+motherid IDREF #IMPLIED
+ownerid IDREF #IMPLIED
+color CDATA #IMPLIED>
+
+<!ELEMENT lineref (linname)>
+<!ATTLIST lineref lineid ID #REQUIRED>
+
+<!ELEMENT line (#PCDATA)>
+
+<!ELEMENT familyref (famname)>
+<!ATTLIST familyref famid ID #REQUIRED>
+
+<!ELEMENT fam (#PCDATA)>
+
+<!ELEMENT linname (#PCDATA)>
+<!ELEMENT famname (#PCDATA)>
+
+<!ELEMENT person (firstname, lastname)>
+<!ATTLIST person personid ID #REQUIRED>
+
+<!ELEMENT reg (year, month, tot?, id?)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT tot (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+
+<!ELEMENT breeder (#PCDATA)>
+<!ELEMENT foundationdate (#PCDATA)>
+<!ELEMENT homepage (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT suffix (#PCDATA)>
+<!ELEMENT nickname (#PCDATA)>
+<!ELEMENT externid (#PCDATA)>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT died (#PCDATA)>
+<!ELEMENT exportfrom (#PCDATA)>
+<!ELEMENT importto (#PCDATA)>
+<!ELEMENT gif EMPTY>
+<!ELEMENT jpg EMPTY>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT kennelbeforename EMPTY>
+<!ELEMENT namebeforekennel EMPTY>
+<!ELEMENT kennelbeforename2 EMPTY>
+<!ELEMENT namebeforekennel2 EMPTY>
+<!ELEMENT male EMPTY>
+<!ELEMENT female EMPTY>
+
+<!ELEMENT CD EMPTY>
+<!ELEMENT CDX EMPTY>
+<!ELEMENT UD EMPTY>
+<!ELEMENT UDX EMPTY>
+<!ELEMENT ROM EMPTY>
+<!ELEMENT ROMC EMPTY>
+<!ELEMENT ROMA EMPTY>
+<!ELEMENT JW (#PCDATA)>
+<!ELEMENT CW (#PCDATA)>
+<!ELEMENT ch (#PCDATA)>
+<!ELEMENT chyear (#PCDATA)>
+<!ELEMENT cc (#PCDATA)>
+
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
