@@ -71,7 +71,7 @@ w('</tr>');
 	    <script language="JavaScript" src="../js/navigate.js"></script>
 	    <!-- No underline -->
 	    <style type="text/css">A { text-decoration:underline }</style>
-	    <link rel="stylesheet" type="text/css" href="../js/stylesheet.css"></link>
+	    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css"></link>
     </head>
     
     <body background="../img/_tile2.jpg" bgcolor="#113045" link="#00CEF4"

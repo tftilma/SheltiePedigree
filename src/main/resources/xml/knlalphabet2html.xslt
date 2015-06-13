@@ -40,7 +40,7 @@ content="Portma Zathe, Sheltie, Shetland Sheepdog"/>
 <style type="text/css">
 a { text-decoration:underline }
 </style>
-<link rel="stylesheet" type="text/css" href="../js/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
 </link>
 </head>
 <body background="../img/_tile2.jpg" bgcolor="#113045" link="#00CEF4" vlink="#00CEF4" alink="#00CEF4">

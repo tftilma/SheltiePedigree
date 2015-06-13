@@ -190,7 +190,7 @@ var born="";
       content="Portma Zathe, Sheltie, Shetland Sheepdog, pedigree"/>
 <script language="JavaScript" src="../js/navigate.js"/>
 <title>Statistics</title>
-<link rel="stylesheet" type="text/css" href="../js/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
 <link rel="stylesheet" type="text/css" href="../css/graph.css"/>
 </head>
 

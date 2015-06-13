@@ -105,7 +105,7 @@ var nChildChildren="0";
 <script language="JavaScript">
 <xsl:apply-templates select="childNode"/>
 </script>
-<link rel="stylesheet" type="text/css" href="../js/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
 </head>
 <body background="../img/_tile2.jpg" bgcolor="#113045" link="#00CEF4" vlink="#00CEF4" alink="#00CEF4">
 <div class="edge1">

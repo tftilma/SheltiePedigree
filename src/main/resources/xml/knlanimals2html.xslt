@@ -68,7 +68,7 @@ w('</tr>');
 <meta name="keywords" content="Portma Zathe, Sheltie, Shetland Sheepdog"/>
 <script language="JavaScript" src="../js/navigate.js"></script>
 <xsl:apply-templates select="kennel"/>
-<link rel="stylesheet" type="text/css" href="../js/stylesheet.css"></link>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"></link>
 </head>
 <body background="../img/_tile2.jpg" bgcolor="#113045" link="#00CEF4" vlink="#00CEF4" alink="#00CEF4">
 <div class="edge1">

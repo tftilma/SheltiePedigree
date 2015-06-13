@@ -83,7 +83,7 @@ w('</tr>');
     <script language="JavaScript" type="text/javascript" src="../js/navigate.js">
         var leeg=1;
     </script>
-    <link rel="stylesheet" type="text/css" href="../js/stylesheet.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="all">
     </link>
     <link rel="stylesheet" type="text/css" href="../css/rom.css" media="all">
     </link>
